@@ -83,3 +83,7 @@ WebApi1 takes:706381毫秒 0.14ms/p
 ![每次请求所花费的时间](https://github.com/jiahengaa/WebApiPKGrpcOverHttp2/blob/master/%E6%B5%8B%E8%AF%95%E5%9B%BE/%E6%80%A7%E8%83%BD%E5%AF%B9%E6%AF%94%E5%9B%BE.png "每次请求所花费的时间")
 
 ![请求所花费的总时间](https://github.com/jiahengaa/WebApiPKGrpcOverHttp2/blob/master/%E6%B5%8B%E8%AF%95%E5%9B%BE/%E6%80%A7%E8%83%BD%E8%80%97%E6%97%B6%E5%AF%B9%E6%AF%94%E5%9B%BE.png "每次请求所花费的时间")
+
+## 总结
+由此可以看出，再并发量很高的情况下，Webapi over http2的性能是最高的，其次是Grpc over http2 ,最后才是Webapi over http1.1。
+另外，有兴趣的同学可以在linux下做下测试，结果可能更明显。
