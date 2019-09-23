@@ -1,22 +1,7 @@
-
-description: Computer
-    width: 64 bits
-    capabilities: smp vsyscall32
-  *-core
-       description: Motherboard
-       physical id: 0
-     *-memory
-          description: System memory
-          physical id: 0
-          size: 31GiB
-     *-cpu
-          product: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
-          vendor: Intel Corp.
-          physical id: 1
-          bus info: cpu@0
-          size: 3939MHz
-          capacity: 4200MHz
-          width: 64 bits
+Operation System: Ubuntu 18.04.2 LTS
+CPU Intel(R) Core(TM)i7-7700 CPU @3.60GHz
+1 physical processor;4cores;8threads
+RAM:32GB
 
 
 1000000 百万次请求
